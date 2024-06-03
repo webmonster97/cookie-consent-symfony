@@ -1,0 +1,14 @@
+framework:
+  translator: { fallbacks: ['en'] }
+  default_locale: '%env(DEFAULT_LOCALE)%'
+  session:
+    enabled: true
+  router:
+    default_uri: http://localhost
+  request:
+    formats:
+      json: application/json
+  locale: en
+  trusted_proxies: '127.0.0.1,::1'
+  trusted_hosts: ~
+  http_method_override: true

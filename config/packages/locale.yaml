@@ -1,0 +1,11 @@
+framework:
+  translator:
+    enabled: true
+  default_locale: '%locale%'
+  session:
+    enabled: true
+  request:
+    # Definir comment la locale est déterminée dans la requête
+    locale: true
+    # Optionnel: fallback_locale pour définir une locale par défaut
+    fallback_locale: '%locale%'
