@@ -1,14 +1,14 @@
-# Bibliyotèk Jesyon Konsantman pou Kòkiz pou Symfony
+# Cookie Consent Management Library for Symfony
 
-## Deskripsyon
+## Description
 
-Bibliyotèk Symfony sa a jere konsantman pou kòkiz selon règleman GDPR. Lè yon itilizatè rive sou yon paj, yon mesaj konsantman pou kòkiz ap parèt. Itilizatè a ka aksepte oswa refize itilizasyon kòkiz yo. Si itilizatè a aksepte, mesaj la p'ap parèt ankò nan vizit pwochèn yo. Si itilizatè a refize, pa gen okenn kòkiz ki itilize. Bibliyotèk la sipòte plizyè lang.
+This Symfony library manages cookie consent according to GDPR regulations. When a user arrives on a page, a cookie consent message is displayed. The user can accept or refuse the use of cookies. If the user accepts, the message will no longer be displayed on subsequent visits. If the user refuses, no cookies are used. The library supports multiple languages.
 
-## Enstalasyon
+## Installation
 
-### 1. Kopye depo a:
+### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/votre-utilisateur/nom-du-repo.git
-cd nom-du-repo
+git clone https://github.com/webmonster97/cookie-consent-symfony.git
+cd repository-name
 ```
