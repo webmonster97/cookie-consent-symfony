@@ -1,0 +1,12 @@
+# Symfony specific
+/var/
+/vendor/
+.env
+/node_modules/
+/public/build/
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db

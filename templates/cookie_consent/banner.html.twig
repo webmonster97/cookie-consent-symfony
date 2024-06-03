@@ -1,0 +1,9 @@
+{% if showBanner %}
+    <div id="consent-banner" style="position: fixed; bottom: 0; width: 100%; background-color: #2c3e50; color: #ecf0f1; text-align: center; padding: 10px;">
+        <form method="POST" action="{{ path('cookie_consent') }}" style="display: inline;">
+            <span>{{ 'This site uses cookies to enhance your experience. Do you accept the use of cookies?'|trans }}</span>
+            <button type="submit" name="consent" value="yes" style="background-color: #3498db; color: #fff; border: none; border-radius: 5px; padding: 10px 20px; margin: 5px; cursor: pointer;">{{ 'Yes'|trans }}</button>
+            <button type="submit" name="consent" value="no" style="background-color: #e74c3c; color: #fff; border: none; border-radius: 5px; padding: 10px 20px; margin: 5px; cursor: pointer;">{{ 'No'|trans }}</button>
+        </form>
+    </div>
+{% endif %}
