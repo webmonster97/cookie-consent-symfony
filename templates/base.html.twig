@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    <link rel="stylesheet" href="{{ asset('build/app.css') }}">
+</head>
+<body>
+{% block body %}{% endblock %}
+
+{{ render(controller('App\\Controller\\CookieConsentController::renderConsentBanner')) }}
+
+<script src="{{ asset('js/consent.js') }}"></script>
+</body>
+</html>
